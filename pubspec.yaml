@@ -1,0 +1,28 @@
+name: draw
+description: Space Draw
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  material_design_icons_flutter: ^4.0.5345
+  cupertino_icons: ^0.1.2
+  dio: ^3.0.9
+  esys_flutter_share: ^1.0.2
+  web_socket_channel: "^1.0.8"
+  flare_flutter: ^2.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_colorpicker: any
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/loading_screen.flr
+    - assets/winner_screen.flr
